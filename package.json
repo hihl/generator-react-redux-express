@@ -2,21 +2,32 @@
   "name": "generator-react-es6-fullstack",
   "version": "0.0.1",
   "description": "react-es6-fullstack-generator",
-  "main": "index.js",
+  "main": "app/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "release:major": "npm version prerelease && git push --follow-tags && npm publish --tag beta",
+    "release:minor": "npm version prerelease && git push --follow-tags && npm publish --tag beta",
+    "release:patch": "npm version prerelease && git push --follow-tags && npm publish --tag beta"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hihl/generator-react-es6-fullstack.git"
   },
+  "files": [
+    "app",
+    "utils",
+    "template"
+  ],
   "keywords": [
     "react",
     "es6",
     "fullstack",
     "generator"
   ],
-  "author": "zhengfeng.yao@tongdun.cn",
+  "author": {
+    "name": "Zhengfeng Yao",
+    "email": "zhengfeng.yao@tongdun.cn",
+    "url": "https://github.com/hihl"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/hihl/generator-react-es6-fullstack/issues"
