@@ -1,0 +1,49 @@
+{
+  "style": {
+    "options": [
+      {
+        "name": "css",
+        "value": "css",
+        "suffix": ".css"
+      },
+      {
+        "name": "sass",
+        "value": "sass",
+        "suffix": ".sass",
+        "packages": [
+          { "name": "sass-loader", "version": "^4.0.0" },
+          { "name": "node-sass", "version": "^3.8.0" }
+        ]
+      },
+      {
+        "name": "scss",
+        "value": "scss",
+        "suffix": ".scss",
+        "packages": [
+          { "name": "sass-loader", "version": "^4.0.0" },
+          { "name": "node-sass", "version": "^3.8.0" }
+        ]
+      },
+      {
+        "name": "less",
+        "value": "less",
+        "suffix": ".less",
+        "packages": [
+          { "name": "less-loader", "version": "^2.2.3" },
+          { "name": "less", "version": "^2.7.1" }
+        ]
+      },
+      {
+        "name": "stylus",
+        "value": "stylus",
+        "suffix": ".styl",
+        "packages": [
+          { "name": "stylus-loader", "version": "^2.3.1" },
+          { "name": "stylus", "version": "^0.54.5" },
+          { "name": "nib", "version": "~1.1.2" }
+        ]
+      }
+    ],
+    "default": "css"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "generator-react-es6-fullstack",
+  "version": "0.0.1",
+  "description": "react-es6-fullstack-generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hihl/generator-react-es6-fullstack.git"
+  },
+  "keywords": [
+    "react",
+    "es6",
+    "fullstack",
+    "generator"
+  ],
+  "author": "zhengfeng.yao@tongdun.cn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hihl/generator-react-es6-fullstack/issues"
+  },
+  "homepage": "https://github.com/hihl/generator-react-es6-fullstack#readme",
+  "dependencies": {
+    "underscore.string": "^3.3.4",
+    "yeoman-generator": "^0.24.1",
+    "yeoman-welcome": "^1.0.1"
+  }
+}
