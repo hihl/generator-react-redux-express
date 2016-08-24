@@ -46,13 +46,11 @@ class AppGenerator extends Generators.Base {
 
       // Set needed global vars for yo
       this.appName = answers.appName;
-      this.style = answers.style;
       this.generatedWithVersion = parseInt(packageInfo.version.split('.').shift(), 10);
 
       // Set needed keys into config
       this.config.set('appName', this.appName);
       this.config.set('appPath', this.appPath);
-      this.config.set('style', this.style);
       this.config.set('generatedWithVersion', this.generatedWithVersion);
     });
   }
@@ -79,15 +77,6 @@ class AppGenerator extends Generators.Base {
       devDependencies: defaultSettings.devDependencies,
       dependencies: defaultSettings.dependencies
     };
-
-    // Add needed loaders if we have special styles
-    let styleConfig = utils.config.getChoiceByKey('style', this.style);
-    if(styleConfig && styleConfig.packages) {
-
-      for(let dependency of styleConfig.packages) {
-        packageSettings.devDependencies[dependency.name] = dependency.version;
-      }
-    }
 
     this.fs.writeJSON(this.destinationPath('package.json'), packageSettings);
   }
