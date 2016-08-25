@@ -1,6 +1,6 @@
 {
   "name": "generator-react-redux-express",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "generator-react-redux-express",
   "main": "app/index.js",
   "engines": {
