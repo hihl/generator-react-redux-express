@@ -90,7 +90,9 @@ class AppGenerator extends Generators.Base {
       'node_modules',
       'package.json',
       '.istanbul.yml',
-      '.travis.yml'
+      '.travis.yml',
+      '.DS_Store',
+      '.idea'
     ];
 
     // Get all files in our repo and copy the ones we should
