@@ -1,6 +1,6 @@
 'use strict';
 const Generators = require('yeoman-generator');
-const utils = require('../../utils');
+const utils = require('../utils');
 const prompts = require('./prompts');
 const path = require('path');
 const fs = require('fs');

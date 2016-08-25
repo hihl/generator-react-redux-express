@@ -1,7 +1,7 @@
 {
-  "name": "generator-react-es6-fullstack",
+  "name": "generator-react-redux-express",
   "version": "0.0.1",
-  "description": "react-es6-fullstack-generator",
+  "description": "generator-react-redux-express",
   "main": "app/index.js",
   "scripts": {
     "release:major": "npm version prerelease && git push --follow-tags && npm publish --tag beta",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hihl/generator-react-es6-fullstack.git"
+    "url": "git+https://github.com/hihl/generator-react-redux-express.git"
   },
   "files": [
     "app",
@@ -20,19 +20,20 @@
   "keywords": [
     "react",
     "es6",
-    "fullstack",
+    "express",
+    "redux",
     "generator"
   ],
   "author": {
     "name": "Zhengfeng Yao",
     "email": "zhengfeng.yao@tongdun.cn",
-    "url": "https://github.com/hihl"
+    "url": "https://github.com/hihl/generator-react-redux-express"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hihl/generator-react-es6-fullstack/issues"
+    "url": "https://github.com/hihl/generator-react-redux-express/issues"
   },
-  "homepage": "https://github.com/hihl/generator-react-es6-fullstack#readme",
+  "homepage": "https://github.com/hihl/generator-react-redux-express#readme",
   "dependencies": {
     "underscore.string": "^3.3.4",
     "yeoman-generator": "^0.24.1",
