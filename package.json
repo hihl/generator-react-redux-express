@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "generator-react-redux-express",
   "main": "app/index.js",
+  "engines": {
+    "node": ">=4.0.0",
+    "iojs": ">=1.1.0"
+  },
   "scripts": {
     "release:major": "npm version prerelease && git push --follow-tags && npm publish --tag beta",
     "release:minor": "npm version prerelease && git push --follow-tags && npm publish --tag beta",
