@@ -2,7 +2,7 @@
   "name": "generator-react-redux-express",
   "version": "0.0.2",
   "description": "Yeoman generator for using React, Redux, Express with Webpack via Babel",
-  "main": "app/index.js",
+  "main": "generators/app/index.js",
   "engines": {
     "node": ">=4.0.0",
     "iojs": ">=1.1.0"
@@ -24,7 +24,7 @@
     "url": "https://github.com/hihl/generator-react-redux-express.git"
   },
   "files": [
-    "app",
+    "generators",
     "utils",
     "template"
   ],
@@ -39,6 +39,7 @@
   },
   "homepage": "https://github.com/hihl/generator-react-redux-express#readme",
   "dependencies": {
+    "react-redux-express": "0.0.2",
     "underscore.string": "^3.3.4",
     "yeoman-generator": "^0.24.1",
     "yeoman-welcome": "^1.0.1"
