@@ -1,0 +1,8 @@
+language: node_js
+sudo: false
+node_js:
+  - '4'
+  - '6'
+before_install:
+  - currentfolder=${PWD##*/}
+  - if [ "$currentfolder" != 'generator-react-redux-express' ]; then cd .. && eval "mv $currentfolder generator-react-redux-express" && cd generator-react-redux-express; fi
