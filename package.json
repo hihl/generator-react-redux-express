@@ -39,7 +39,7 @@
   },
   "homepage": "https://github.com/hihl/generator-react-redux-express#readme",
   "dependencies": {
-    "react-redux-express": "0.0.4",
+    "react-redux-express": "0.1.0",
     "underscore.string": "^3.3.4",
     "yeoman-generator": "^0.24.1",
     "yeoman-welcome": "^1.0.1"
