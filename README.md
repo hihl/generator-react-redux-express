@@ -19,3 +19,6 @@ mkdir my-new-project && cd my-new-project
 # Run the generator
 yo react-redux-express
 ```
+## Thanks
+* [generator-react-fullstack](https://github.com/kriasoft/react-starter-kit)
+* [generator-react-webpack](https://github.com/react-webpack-generators/generator-react-webpack)
