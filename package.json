@@ -1,6 +1,6 @@
 {
   "name": "generator-react-redux-express",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Yeoman generator for using React, Redux, Express with Webpack via Babel",
   "main": "generators/app/index.js",
   "engines": {
