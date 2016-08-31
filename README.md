@@ -4,6 +4,23 @@
 
 > Yeoman generator for [ReactJS](http://facebook.github.io/react/) - lets you quickly set up a project including karma test runner and [Webpack](http://webpack.github.io/) module system.
 
+- [x] React
+- [x] Redux
+- [x] React Router
+- [x] React Router Redux
+- [x] Babel
+- [x] PostCSS
+- [x] Less
+- [x] Scss
+- [x] Sass
+- [x] Stylus
+- [ ] ESLint                   TODO  2016/9/7
+- [x] Karma + mocha + chai
+- [x] live reload
+- [x] express
+- [x] pm2
+- [ ] database                 TODO  2016/9/7
+
 ## Installation
 ```bash
 # Make sure both is installed globally
